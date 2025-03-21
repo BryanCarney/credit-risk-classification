@@ -61,7 +61,7 @@ Structure your report by using the report template that Starter_Code.zip include
 # Credit Risk Analysis Report
 
 ### Overview of the Analysis
-The purpose of this analysis is to evaluate the performance of a machine learning model in predicting credit risk, specifically in identifying high-risk loans. The goal is to determine whether the model can accurately classify loans as either "healthy" (class 0) or "high-risk" (class 1) based on various features related to the applicants. The model will be used by a financial institution, such as a bank, to help make informed decisions regarding loan approval and risk assessment. A robust model is crucial for minimizing financial losses due to defaults while also ensuring the institution doesn't miss out on legitimate loan opportunities.
+The purpose of this analysis is to evaluate the performance of a machine learning model in predicting credit risk, specifically in identifying high-risk loans. The goal is to determine whether the model can accurately classify loans as either "healthy" (class 0) or "high-risk" (class 1) based on various features related to the applicants. The model will be used by a financial institution to help make informed decisions regarding loan approval and risk assessment. The goal is to minimizing financial losses due to defaults while also ensuring the institution doesn't miss out on legitimate loan opportunities.
 
 ### The Results
 
@@ -97,6 +97,6 @@ Given that missing a high-risk loan (false negative) can have serious financial 
 
 ### Recommendation
 
-I recommend deploying this model for use by the company. The high recall for class 1 means the model is effective at identifying high-risk loans, which is crucial for risk mitigation in a financial institution. While precision for high-risk loans can be improved, the model’s overall performance—especially in terms of recall—makes it a reliable tool for preventing high-risk loans from being approved.
+I recommend deploying this model for use by the company. The high recall for class 1 means the model is effective at identifying high-risk loans, which is crucial for risk mitigation in a financial institution. While precision for high-risk loans can be improved, the model’s overall performance makes it a reliable tool for preventing high-risk loans from being approved.
 
 If precision for class 1 becomes a priority, further tuning (such as adjusting the decision threshold or using additional techniques like cost-sensitive learning or rebalancing the dataset) can be explored. However, given the current performance, this model is well-suited for real-world deployment in loan risk assessment.
