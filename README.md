@@ -91,12 +91,12 @@ The F1-score for class 1 is 0.91, indicating a strong balance between precision 
 
 ### Summary
 
-The machine learning model performs exceptionally well with an overall accuracy of 99%. It shows near-perfect performance in predicting healthy loans (class 0), with 100% precision and 99% recall, making it highly reliable for identifying loans that are low-risk. For high-risk loans (class 1), the model shows excellent recall (99%), meaning it catches most of the high-risk loans, but the precision (84%) is slightly lower, indicating that some healthy loans are misclassified as high-risk.
+The machine learning model performs well with an overall accuracy of 99%. It shows high level of performance in predicting healthy loans (class 0), with 100% precision and 99% recall, making it highly reliable for identifying loans that are low-risk. For high-risk loans (class 1), the model shows excellent recall (99%), meaning it catches most of the high-risk loans, but the precision (84%) is slightly lower, indicating that some healthy loans are misclassified as high-risk.
 
-Given that missing a high-risk loan (false negative) can have serious financial consequences for the bank, the model’s high recall for class 1 is particularly important. While precision could be improved for high-risk loans, the high recall ensures that very few high-risk loans are missed. This is critical in minimizing financial losses due to defaults.
+Given that missing a high-risk loan can have serious financial consequences for the bank, the model’s high recall for class 1 is important. While precision could be improved for high-risk loans, the high recall ensures that very few high-risk loans are missed. This is critical in minimizing financial losses due to defaults.
 
 ### Recommendation
 
 I recommend deploying this model for use by the company. The high recall for class 1 means the model is effective at identifying high-risk loans, which is crucial for risk mitigation in a financial institution. While precision for high-risk loans can be improved, the model’s overall performance makes it a reliable tool for preventing high-risk loans from being approved.
 
-If precision for class 1 becomes a priority, further tuning (such as adjusting the decision threshold or using additional techniques like cost-sensitive learning or rebalancing the dataset) can be explored. However, given the current performance, this model is well-suited for real-world deployment in loan risk assessment.
+If precision for class 1 becomes a priority, further refinement can be explored. However, given the current performance, this model is well-suited for real-world deployment in loan risk assessment.
